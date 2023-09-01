@@ -1,0 +1,123 @@
+* {/* "*" referece a todas as tagas*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+.cadastro {
+  /* Centraliza verticalmente */
+    justify-content: center;
+    align-items: center;/* Centraliza horizontalmente */
+    width: 950px;/*largura do conteiner na parte azul da inspenção */
+    height: 750px; /* Define a altura do container para preencher a altura da janela */ 
+    border: 3px solid;
+    padding: 100px 450px;
+}
+
+.body_cadastro{
+    background-image: linear-gradient(45deg, #0a0161, rgb(49, 82, 172));
+}
+
+.div_cadastro{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute; /* o div preenche apenas o fundo de seus elementos*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 100px;
+    border-radius: 15px;
+}
+
+.fieldset_cadastro{
+    width: 500px;
+    height: 500px;
+}
+
+.legend_cadastro{
+    color: #fff;
+}
+    
+
+footer {
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input[type="text"],
+select {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #d8d8d8;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+a{
+    text-align: center;
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+/*<style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        input[type="submit"] {
+            margin-top: 10px;
+        }
+    </style>*/

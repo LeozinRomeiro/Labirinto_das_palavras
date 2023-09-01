@@ -1,0 +1,138 @@
+* {/* "*" referece a todas as tagas*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+body{
+    text-align: center;
+    background-image: linear-gradient(45deg, #0a0161, rgb(49, 82, 172));
+}
+
+.a_cabecalho{
+    text-decoration: none;
+    padding: 5px;
+    border: 3px solid  rgb(55, 169, 223);
+    border-radius: 10px;
+}
+
+.a_menu{
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.div_menu{
+    background-color: black;
+    position: absolute; /* o div preenche apenas o fundo de seus elementos*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.li_menu{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.a_cabecalho:hover, .a_menu:hover{
+    background-color: rgb(55, 169, 223);
+    color: black;
+}
+
+.cadastro {
+  /* Centraliza verticalmente */
+    justify-content: center;
+    align-items: center;/* Centraliza horizontalmente */
+    width: 950px;/*largura do conteiner na parte azul da inspenção */
+    height: 750px; /* Define a altura do container para preencher a altura da janela */ 
+    border: 3px solid;
+    padding: 100px 450px;
+}
+
+.div_cadastro{
+    width: 500px;
+    height: 500px;
+    color: #fff;/*fonte*/
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute; /* o div preenche apenas o fundo de seus elementos*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 100px;
+    border-radius: 15px;
+}
+
+.fieldset_cadastro{
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    display: block;
+    margin: unset;
+    min-inline-size: 0%;
+    border-color: #fff;
+    border-radius: 15px;
+}
+
+.legend_cadastro{
+    color: #fff;
+    background-color: #0a0161;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.div_label_input_cadastro{
+    position: relative;
+}
+
+.input_cadastro{
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+}
+
+.submit_cadastro{
+    color: #fff;
+    background-color: #0a0161;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    width: 50%;
+    cursor: pointer; /* transforma o cursor quando posiona ele no elemento*/
+    margin-left: 50%;
+}
+
+.submit_cadastro:hover{
+    background-color: rgb(49, 82, 172);
+    transform: scale(0.9);
+}
+
+.label_cadastro{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+option{
+    appearance: none;
+    background-color: #0a0161;
+    color: #ffffff;
+}
+
+.input_cadastro:focus ~ .label_cadastro,
+.input_cadastro:valid ~ .label_cadastro{
+    top: -20px;
+    font-size: 12px;
+    color: rgb(49, 82, 172);
+}
+
